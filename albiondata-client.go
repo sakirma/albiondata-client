@@ -2,12 +2,12 @@ package main
 
 import (
 	"flag"
+	"github.com/albiondata-client/client"
 	"strconv"
 	"strings"
 	"time"
 
 	"github.com/Sirupsen/logrus"
-	"github.com/broderickhyman/albiondata-client/client"
 	"github.com/broderickhyman/albiondata-client/log"
 	"github.com/broderickhyman/albiondata-client/systray"
 	"github.com/broderickhyman/go-githubupdate/updater"
